@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\softwaredepartment\\SimaWeb2App\\SimaWeb2App\\SimaWeb2App.csproj": {}
+  },
+  "projects": {
+    "D:\\softwaredepartment\\SimaWeb2App\\SimaWeb2App\\SimaWeb2App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\softwaredepartment\\SimaWeb2App\\SimaWeb2App\\SimaWeb2App.csproj",
+        "projectName": "SimaWeb2App",
+        "projectPath": "D:\\softwaredepartment\\SimaWeb2App\\SimaWeb2App\\SimaWeb2App.csproj",
+        "packagesPath": "C:\\Users\\agil.bashirov\\.nuget\\packages\\",
+        "outputPath": "D:\\softwaredepartment\\SimaWeb2App\\SimaWeb2App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\agil.bashirov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BouncyCastle.Crypto.dll": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "SkiaSharp": {
+              "target": "Package",
+              "version": "[2.88.8, )"
+            },
+            "SkiaSharp.QrCode": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
