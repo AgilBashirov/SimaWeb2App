@@ -31,7 +31,7 @@ var signableContainer = new SignableContainer
     ProtoInfo = new ProtoInfo(),
     OperationInfo = new OperationInfo
     {
-        Type = "Auth",
+        Type = "Auth", // or "Sign"
         OperationId = "123456789",
         NbfUtc = 1649721600,
         ExpUtc = 1650326400,
@@ -45,7 +45,8 @@ var signableContainer = new SignableContainer
         Callback = "https://example.com/callback",
         RedirectUri = "https://example.com/redirect"
     },
-    DataInfo = new DataInfo
+    // DataInfo - Optional
+    DataInfo = new DataInfo 
     {
         DataUri = "https://example.com/data",
         AlgName = "SHA256",
