@@ -99,4 +99,4 @@ byte[] pathAndQueryBytes = SimaHelper.GetRequestPathAndQueryStringAsBytes("/path
 We welcome contributions! Please submit issues and pull requests for new features, bug fixes, and enhancements.
 
 ### License:
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. For more details, see the [Privacy Policy](https://www.sima.az/az/privacy-policy).
