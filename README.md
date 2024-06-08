@@ -1,26 +1,28 @@
-SimaWeb2App Integration Library
+## SimaWeb2App Integration Library
 
-Description:
+### Description:
 The SimaWeb2App Integration Library provides a robust and secure way to integrate with the Sima Web2App protocol, facilitating seamless data exchange between service providers and identity providers. This library includes functionalities for generating and validating contracts, creating QR codes, and managing cryptographic operations.
 
-Features:
-- Contract Generation and Encoding: Easily create and encode contracts for secure data exchange.
-- QR Code Generation: Generate QR codes as Base64 strings or byte arrays for various use cases using public methods.
-- Timestamp Certificate Validation: Validate timestamp certificates using provided signing algorithms.
-- Flexible and Extendable Models: Use pre-defined models like OperationInfo, ClientInfo, ProtoInfo, SignableContainer, and more for clear and structured data representation.
-- Error Handling: Robust error handling for unsupported signing algorithms and other edge cases.
+### Features:
+- **Contract Generation and Encoding:** Easily create and encode contracts for secure data exchange.
+- **QR Code Generation:** Generate QR codes as Base64 strings or byte arrays for various use cases using public methods.
+- **Timestamp Certificate Validation:** Validate timestamp certificates using provided signing algorithms.
+- **Flexible and Extendable Models:** Use pre-defined models like `OperationInfo`, `ClientInfo`, `ProtoInfo`, `SignableContainer`, and more for clear and structured data representation.
+- **Error Handling:** Robust error handling for unsupported signing algorithms and other edge cases.
 
-Installation:
+### Installation:
 Clone the repository and include the library in your .NET project.
 
-bash
+```bash
 git clone https://github.com/AgilBashirov/SimaWeb2App.git
+```
 
-Usage:
+### Usage:
 
-Generating QR Codes:
-Use the public methods GenerateQrCodeAsBase64 and GenerateQrCodeAsByte for generating QR codes.
+#### Generating QR Codes:
+Use the public methods `GenerateQrCodeAsBase64` and `GenerateQrCodeAsByte` for generating QR codes.
 
+```csharp
 using SimaWeb2App.Helpers;
 
 string getFileUrl = "https://example.com";
@@ -54,10 +56,12 @@ string secretKey = "your_secret_key";
 
 string qrCodeBase64 = SimaHelper.GenerateQrCodeAsBase64(getFileUrl, signableContainer, secretKey);
 byte[] qrCodeBytes = SimaHelper.GenerateQrCodeAsByte(getFileUrl, signableContainer, secretKey);
+```
 
-Validating Timestamp Certificates:
-Use the public method TsCertValidation to validate timestamp certificates.
+#### Validating Timestamp Certificates:
+Use the public method `TsCertValidation` to validate timestamp certificates.
 
+```csharp
 using SimaWeb2App;
 
 bool isValid = SimaHelper.TsCertValidation(
@@ -66,16 +70,21 @@ bool isValid = SimaHelper.TsCertValidation(
     tsSignAlg: "ECDSA_SHA256",
     processBuffer: new byte[] { /* your data */ }
 );
+```
 
-Generating a Button Link:
-Use the public method GenerateButtonLink to generate a URL link for a button.
+#### Generating a Button Link:
+Use the public method `GenerateButtonLink` to generate a URL link for a button.
 
+```csharp
 string buttonLink = SimaHelper.GenerateButtonLink(getFileUrl, signableContainer, secretKey);
+```
 
-Converting Path and Query String to Bytes:
-Use the public method GetRequestPathAndQueryStringAsBytes to convert the path and query string into a byte array.
+#### Converting Path and Query String to Bytes:
+Use the public method `GetRequestPathAndQueryStringAsBytes` to convert the path and query string into a byte array.
 
+```csharp
 byte[] pathAndQueryBytes = SimaHelper.GetRequestPathAndQueryStringAsBytes("/path", "?query=string");
+```
 
-Contributing:
+### Contributing:
 We welcome contributions! Please submit issues and pull requests for new features, bug fixes, and enhancements.
