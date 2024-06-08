@@ -33,7 +33,7 @@ var signableContainer = new SignableContainer
         OperationId = "123456789",
         NbfUtc = 1649721600,
         ExpUtc = 1650326400,
-        Assignee = new List<string> { "User1", "User2" }
+        Assignee = new List<string> { "Pin1", "Pin2" }
     },
     ClientInfo = new ClientInfo
     {
