@@ -17,6 +17,15 @@ Clone the repository and include the library in your .NET project.
 git clone https://github.com/AgilBashirov/SimaWeb2App.git
 ```
 
+### NuGet Packages:
+When using this library, make sure to install the following packages from NuGet:
+
+```powershell
+Install-Package BouncyCastle.Crypto -Version 1.8.1
+Install-Package SkiaSharp -Version 2.88.8
+Install-Package SkiaSharp.QrCode -Version 6.4.0
+```
+
 ### Usage:
 
 #### Generating QR Codes:
@@ -88,3 +97,6 @@ byte[] pathAndQueryBytes = SimaHelper.GetRequestPathAndQueryStringAsBytes("/path
 
 ### Contributing:
 We welcome contributions! Please submit issues and pull requests for new features, bug fixes, and enhancements.
+
+### License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
