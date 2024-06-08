@@ -14,16 +14,21 @@ public static class ContractHelper
     /// <param name="signableContainer">The container with signable data.</param>
     /// <param name="secretKey">The secret key used for generating the signature.</param>
     /// <returns>A new Contract object containing the signable container and header information.</returns>
-    internal static Contract CreateContract(SignableContainer signableContainer, string secretKey) =>
-        new()
+    internal static Contract CreateContract(SignableContainer signableContainer, string secretKey)
+    {
+        var header = new Header
+        {
+            AlgorithmName = AlgorithmName,
+            Signature = CreateSignature(signableContainer, secretKey)
+        };
+
+        return new Contract
         {
             SignableContainer = signableContainer,
-            Header = new Header
-            {
-                AlgorithmName = AlgorithmName,
-                Signature = CreateSignature(signableContainer, secretKey)
-            }
+            Header = header
         };
+    }
+
 
     /// <summary>
     /// Creates a signature for the given model and secret key.

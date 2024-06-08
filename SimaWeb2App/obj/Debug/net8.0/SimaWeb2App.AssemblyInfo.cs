@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SimaWeb2App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8334e27803648daf7f832b342d19af62ef6399d8")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimaWeb2App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimaWeb2App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

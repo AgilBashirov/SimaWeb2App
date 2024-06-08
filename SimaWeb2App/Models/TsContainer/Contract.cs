@@ -14,5 +14,5 @@ internal sealed record Contract
     /// The header information for the contract, including the algorithm name and the signature.
     /// </summary>
     [JsonPropertyName("Header")]
-    internal Header Header { get; init; } = default!;
+    public Header Header { get; init; } = new();
 }

@@ -10,3 +10,4 @@ D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\refint\SimaWeb2Ap
 D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.pdb
 D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\ref\SimaWeb2App.dll
 D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.csproj.AssemblyReference.cache
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.sourcelink.json
