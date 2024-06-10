@@ -29,7 +29,7 @@ When using this library, make sure to install the following packages from NuGet:
 ```powershell
 Install-Package BouncyCastle.Crypto -Version 1.8.1
 Install-Package SkiaSharp -Version 2.88.8
-Install-Package SkiaSharp.QrCode -Version 6.4.0
+Install-Package SkiaSharp.QrCode -Version 0.7.0
 ```
 
 ### Usage:
