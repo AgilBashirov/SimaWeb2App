@@ -16,7 +16,7 @@ using System.Reflection;
     " with the Sima Web2App protocol, facilitating seamless data exchange between ser" +
     "vice providers and identity providers.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af5bb5db397bccbde88aca61f8b07640163b3fa8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed8fdcec2f49b8c72955fc2f2679ada4b7630c0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SimaWeb2App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SimaWeb2App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
