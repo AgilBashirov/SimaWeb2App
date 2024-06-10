@@ -10,7 +10,7 @@
     <readme>README.md</readme>
     <description>The SimaWeb2App Integration Library provides a robust and secure way to integrate with the Sima Web2App protocol, facilitating seamless data exchange between service providers and identity providers.</description>
     <tags>SimaWeb2App Integration QR Code Cryptography</tags>
-    <repository type="git" commit="508cce65c2ed016758fd5f036cf94e366f312c5a" />
+    <repository type="git" commit="72789c2f3cbe12c622c52ec6b1e32ff9192b399a" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="BouncyCastle.Crypto.dll" version="1.8.1" exclude="Build,Analyzers" />
@@ -21,6 +21,7 @@
   </metadata>
   <files>
     <file src="D:\softwaredepartment\SimaWeb2App\SimaWeb2App\bin\Release\net8.0\SimaWeb2App.dll" target="lib\net8.0\SimaWeb2App.dll" />
+    <file src="D:\softwaredepartment\SimaWeb2App\SimaWeb2App\bin\Release\net8.0\SimaWeb2App.xml" target="lib\net8.0\SimaWeb2App.xml" />
     <file src="D:\softwaredepartment\SimaWeb2App\SimaWeb2App\LICENSE.txt" target="LICENSE.txt" />
     <file src="D:\softwaredepartment\SimaWeb2App\SimaWeb2App\README.md" target="README.md" />
   </files>

@@ -5,7 +5,7 @@
   },
   "projects": {
     "D:\\softwaredepartment\\SimaWeb2App\\SimaWeb2App\\SimaWeb2App.csproj": {
-      "version": "1.0.3",
+      "version": "1.0.4",
       "restore": {
         "projectUniqueName": "D:\\softwaredepartment\\SimaWeb2App\\SimaWeb2App\\SimaWeb2App.csproj",
         "projectName": "SimaWeb2App",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
