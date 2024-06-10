@@ -1,0 +1,14 @@
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\bin\Debug\net8.0\SimaWeb2App.deps.json
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\bin\Debug\net8.0\SimaWeb2App.dll
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\bin\Debug\net8.0\SimaWeb2App.pdb
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.csproj.AssemblyReference.cache
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.GeneratedMSBuildEditorConfig.editorconfig
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.AssemblyInfoInputs.cache
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.AssemblyInfo.cs
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.csproj.CoreCompileInputs.cache
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.sourcelink.json
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.dll
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\refint\SimaWeb2App.dll
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\SimaWeb2App.pdb
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Debug\net8.0\ref\SimaWeb2App.dll
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\bin\Debug\net8.0\SimaWeb2App.xml
