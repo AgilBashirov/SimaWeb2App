@@ -22,7 +22,11 @@ internal static class QrHelper
     /// </summary>
     /// <param name="qrUrl">The URL to encode into the QR code.</param>
     /// <returns>A byte array representation of the generated QR code.</returns>
-    internal static byte[] GenerateQrAsByte(string qrUrl) => GenerateQrBytes(qrUrl);
+    internal static byte[] GenerateQrAsByte(string qrUrl)
+    {
+        return GenerateQrBytes(qrUrl);
+    } 
+        
 
     /// <summary>
     /// Generates a QR code from the given URL and returns it as a byte array.

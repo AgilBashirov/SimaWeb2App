@@ -6,6 +6,9 @@ using SimaWeb2App.Models.TsContainer;
 
 namespace SimaWeb2App;
 
+/// <summary>
+/// The SimaHelper class provides methods to generate QR codes, validate timestamp certificates, and convert paths and query strings to byte arrays.
+/// </summary>
 public static class SimaHelper
 {
     /// <summary>
@@ -16,8 +19,11 @@ public static class SimaHelper
     /// <param name="secretKey">The secret key used to sign the contract.</param>
     /// <returns>A base64 string representation of the generated QR code.</returns>
     public static string GenerateQrCodeAsBase64(string getFileUrl, SignableContainer signableContainer,
-        string secretKey) =>
-        QrHelper.GenerateQrCode(getFileUrl, signableContainer, secretKey, QrHelper.GenerateQrAsBase64);
+        string secretKey)
+    {
+        return QrHelper.GenerateQrCode(getFileUrl, signableContainer, secretKey, QrHelper.GenerateQrAsBase64);
+    }
+
 
     /// <summary>
     /// Generates a QR code as a byte array from the given URL, signable container, and secret key.
@@ -26,9 +32,11 @@ public static class SimaHelper
     /// <param name="signableContainer">The signable container to be included in the contract.</param>
     /// <param name="secretKey">The secret key used to sign the contract.</param>
     /// <returns>A byte array representation of the generated QR code.</returns>
-    public static byte[]
-        GenerateQrCodeAsByte(string getFileUrl, SignableContainer signableContainer, string secretKey) =>
-        QrHelper.GenerateQrCode(getFileUrl, signableContainer, secretKey, QrHelper.GenerateQrAsByte);
+    public static byte[] GenerateQrCodeAsByte(string getFileUrl, SignableContainer signableContainer, string secretKey)
+    {
+        return QrHelper.GenerateQrCode(getFileUrl, signableContainer, secretKey, QrHelper.GenerateQrAsByte);
+    }
+
 
     /// <summary>
     /// Generates a URL link for a button from the given URL, signable container, and secret key.
@@ -37,8 +45,10 @@ public static class SimaHelper
     /// <param name="signableContainer">The signable container to be included in the contract.</param>
     /// <param name="secretKey">The secret key used to sign the contract.</param>
     /// <returns>A URL string that can be used as a button link.</returns>
-    public static string GenerateButtonLink(string getFileUrl, SignableContainer signableContainer, string secretKey) =>
-        UrlGenerator.GenerateUrl(getFileUrl, signableContainer, secretKey, UrlGenerator.GenerateUniversalLink);
+    public static string GenerateButtonLink(string getFileUrl, SignableContainer signableContainer, string secretKey)
+    {
+        return UrlGenerator.GenerateUrl(getFileUrl, signableContainer, secretKey, UrlGenerator.GenerateUniversalLink);
+    }
 
     /// <summary>
     /// Validates a timestamp certificate using the given certificate, signature, signing algorithm, and process buffer.
@@ -74,6 +84,8 @@ public static class SimaHelper
     /// <param name="path">The request path.</param>
     /// <param name="queryString">The query string.</param>
     /// <returns>A byte array representation of the concatenated path and query string.</returns>
-    public static byte[] GetRequestPathAndQueryStringAsBytes(string path, string queryString) =>
-        Encoding.UTF8.GetBytes(path + queryString);
+    public static byte[] GetRequestPathAndQueryStringAsBytes(string path, string queryString)
+    {
+        return Encoding.UTF8.GetBytes(path + queryString);
+    }
 }

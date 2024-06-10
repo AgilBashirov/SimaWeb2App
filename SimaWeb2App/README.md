@@ -14,7 +14,7 @@ The SimaWeb2App Integration Library provides a robust and secure way to integrat
 You can install the library directly from NuGet:
 
 ```bash
-dotnet add package SimaWeb2App --version 1.0.2
+dotnet add package SimaWeb2App --version 1.0.3
 ```
 
 Alternatively, you can clone the repository and include the library in your .NET project.
