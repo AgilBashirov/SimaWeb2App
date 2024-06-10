@@ -4,6 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Version>1.0.1</Version>
         <Authors>Agil Bashirov</Authors>
         <Company>AzInTelecom LLC</Company>
         <PackageId>SimaWeb2App</PackageId>
@@ -18,6 +19,17 @@
       <PackageReference Include="BouncyCastle.Crypto.dll" Version="1.8.1" />
       <PackageReference Include="SkiaSharp" Version="2.88.8" />
       <PackageReference Include="SkiaSharp.QrCode" Version="0.7.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Update="LICENSE.txt">
+            <Pack>true</Pack>
+            <PackagePath>LICENSE.txt</PackagePath>
+        </None>
+        <None Update="README.md">
+            <Pack>true</Pack>
+            <PackagePath>README.md</PackagePath>
+        </None>
     </ItemGroup>
 
 </Project>
