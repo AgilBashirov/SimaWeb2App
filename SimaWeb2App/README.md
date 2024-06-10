@@ -11,7 +11,13 @@ The SimaWeb2App Integration Library provides a robust and secure way to integrat
 - **Error Handling:** Robust error handling for unsupported signing algorithms and other edge cases.
 
 ### Installation:
-Clone the repository and include the library in your .NET project.
+You can install the library directly from NuGet:
+
+```bash
+dotnet add package SimaWeb2App --version 1.0.1
+```
+
+Alternatively, you can clone the repository and include the library in your .NET project.
 
 ```bash
 git clone https://github.com/AgilBashirov/SimaWeb2App.git
@@ -99,4 +105,4 @@ byte[] pathAndQueryBytes = SimaHelper.GetRequestPathAndQueryStringAsBytes("/path
 We welcome contributions! Please submit issues and pull requests for new features, bug fixes, and enhancements.
 
 ### License:
-This project is licensed under the MIT License. For more details, see the [Privacy Policy](https://www.sima.az/az/privacy-policy).
+This project is licensed under the MIT License. For more details, see the [LICENSE](https://github.com/AgilBashirov/SimaWeb2App/blob/master/SimaWeb2App/LICENSE.txt).
