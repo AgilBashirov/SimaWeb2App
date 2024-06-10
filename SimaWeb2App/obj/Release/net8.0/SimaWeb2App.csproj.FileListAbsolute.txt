@@ -11,3 +11,4 @@ D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Release\net8.0\SimaWeb2App.dll
 D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Release\net8.0\refint\SimaWeb2App.dll
 D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Release\net8.0\SimaWeb2App.pdb
 D:\softwaredepartment\SimaWeb2App\SimaWeb2App\obj\Release\net8.0\ref\SimaWeb2App.dll
+D:\softwaredepartment\SimaWeb2App\SimaWeb2App\bin\Release\net8.0\SimaWeb2App.xml
