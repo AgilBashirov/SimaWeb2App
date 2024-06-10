@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SimaWeb2App</id>
+    <version>1.0.0</version>
+    <title>SimaWeb2App Integration Library</title>
+    <authors>Agil Bashirov</authors>
+    <description>The SimaWeb2App Integration Library provides a robust and secure way to integrate with the Sima Web2App protocol, facilitating seamless data exchange between service providers and identity providers.</description>
+    <tags>SimaWeb2App Integration QR Code Cryptography</tags>
+    <repository type="git" commit="af5bb5db397bccbde88aca61f8b07640163b3fa8" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="BouncyCastle.Crypto.dll" version="1.8.1" exclude="Build,Analyzers" />
+        <dependency id="SkiaSharp" version="2.88.8" exclude="Build,Analyzers" />
+        <dependency id="SkiaSharp.QrCode" version="0.7.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\softwaredepartment\SimaWeb2App\SimaWeb2App\bin\Release\net8.0\SimaWeb2App.dll" target="lib\net8.0\SimaWeb2App.dll" />
+  </files>
+</package>

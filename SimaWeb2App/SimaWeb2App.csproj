@@ -4,6 +4,12 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Authors>Agil Bashirov</Authors>
+        <Company>AzInTelecom LLC</Company>
+        <PackageId>SimaWeb2App</PackageId>
+        <Title>SimaWeb2App Integration Library</Title>
+        <Description>The SimaWeb2App Integration Library provides a robust and secure way to integrate with the Sima Web2App protocol, facilitating seamless data exchange between service providers and identity providers.</Description>
+        <PackageTags>SimaWeb2App;Integration;QR Code;Cryptography</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

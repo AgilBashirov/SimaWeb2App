@@ -11,7 +11,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("AzInTelecom LLC")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("The SimaWeb2App Integration Library provides a robust and secure way to integrate" +
     " with the Sima Web2App protocol, facilitating seamless data exchange between ser" +
     "vice providers and identity providers.")]
